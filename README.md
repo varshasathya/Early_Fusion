@@ -23,10 +23,10 @@ Projection lidar point clouds image and fusing it with 2D object detection bound
 </p>
 
 <p align="center">
-    1. LiDAR points are projected on the image using camera instrinsic and extrinsic matrix
-    2. The points that lie within the detected 2D Bounding Box by YOLO are stored and rest are ignored
-    3. There are some outliers inside bboxes that do not belong to that category, to reject these outliers there are several ways.
-    4. One way is to shrink the bounding box size so that the points that absolutely belong to the desired objects are only considered.
-    5. Another way is to use the Sigma Rule, i.e include the points that are within 1 sigma or 2 sigma away from gaussian mean, based on the distance of points
+    1. LiDAR points are projected on the image using camera instrinsic and extrinsic matrix <br />
+    2. The points that lie within the detected 2D Bounding Box by YOLO are stored and rest are ignored <br />
+    3. There are some outliers inside bboxes that do not belong to that category, to reject these outliers there are several ways. <br />
+    4. One way is to shrink the bounding box size so that the points that absolutely belong to the desired objects are only considered. <br />
+    5. Another way is to use the Sigma Rule, i.e include the points that are within 1 sigma or 2 sigma away from gaussian mean, based on the distance of points <br />
 </p>
 
